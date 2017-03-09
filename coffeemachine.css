@@ -1,0 +1,34 @@
+#mTitle {
+	text-align: center;
+
+}
+.drinksHeader {
+	margin: 5px;
+	text-align: center;
+}
+
+#drinks {
+	width: 200px;
+	text-align: center;
+	margin:0 auto;
+
+}
+#drinkTable{
+	margin:0 auto;
+}
+#mButton{
+	margin: 10px;
+	width: 100px;
+	height: 40px;
+	font-size:100%;
+	cursor: pointer;
+}
+#itog{
+	text-align: left;
+	font-size: 15pt;
+}
+#sdacha{
+	text-align: left;
+	font-size: 15pt;
+}
+

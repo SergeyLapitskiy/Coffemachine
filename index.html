@@ -1,0 +1,26 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="coffeemachine.css">
+		<meta charset="utf-8">
+		<title>Кофемашина.</title>
+	</head>
+	<body>
+		<div id="mTitle">
+			<h1>Coffe Machine</h1>
+			<label for="money">Введите сумму (руб):</label>
+            <input type="number" id="money" value="0">
+		</div>
+		<div id="drinks">
+			<div class="drinksHeader">
+				<h2>Choose a drink:</h2>
+				<table id="drinkTable"></table>
+				<label><input type="checkbox" id="sugar"/>Сахар</label>
+				<div id="itog">Итого = 0</div>
+				<button id="mButton">Заказать</button>
+				<div id="sdacha">Сдача = 0</div>
+			</div>
+		</div>
+		<script src="coffeemachine.js"></script>
+	</body>
+</html>
